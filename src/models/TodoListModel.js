@@ -4,6 +4,7 @@ import TodoModel from "./TodoModel";
 
 export default class TodoListModel {
   @observable todos = [];
+  @observable testList = ['1', '2', '3']
 
   @computed
   get unfinishedTodoCount() {

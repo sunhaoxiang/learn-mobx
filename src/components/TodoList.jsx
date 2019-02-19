@@ -9,6 +9,7 @@ class TodoList extends Component {
   @observable newTodoTitle = "";
 
   render() {
+    console.log(this.props.store.testList)
     return (
       <div>
         <form onSubmit={this.handleFormSubmit}>
